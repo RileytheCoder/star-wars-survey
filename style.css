@@ -1,6 +1,12 @@
 body {
-    text-align: center;
+  background: #000;
 }
-footer {
-    background: grey;
+
+.star-wars {
+  font-size: 30px;
+  color: #fcd000;
+  font-weight: bold;
+  width: 700px;
+  text-align: center;
+  margin: 0 auto;
 }
