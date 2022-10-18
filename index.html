@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <div id="container">
     <!-- Title -->
+    <div>
     <header class="header">
+      <link rel="stylesheet" href="style.css"> 
       <h1 id="title" class="text-center">Star Wars Survey Form</h1>
         <p id="description" class="description text-center">
           Thank you for taking the time to complete this servey
         </p>
     </header>
+  </div>
     <!-- Questions start here/start of the survey page -->
       <form id="survey-form">
         <!-- Name input -->
@@ -65,15 +68,19 @@
                <label>
                   <input name="prefer" value="outer-rim" type="checkbox" class="input-checkbox"/>Outer Rim</label>
            </div>
-        <!-- Extra comment section -->
-           <div class="form-group">
+      </form>
+        <!-- Footer -->
+          <!-- Extra comment section -->
+          <footer>
+          <div class="form-group">
             <p>Any comments or suggestions?</p>
             <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
-           </div>
+          </div>
         <!-- Submit button -->
           <div class="form-group">
             <button type="submit" id="submit" class="submit-button">Submit</button>
           </div>
-      </form>
+        </footer>
+          <!-- Footer -->
   </div>
   
